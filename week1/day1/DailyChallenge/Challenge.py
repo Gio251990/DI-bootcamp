@@ -1,8 +1,8 @@
 string = input("Write a sentence of exactly 10 characters long ")
-number_of_word = len(string)
-if number_of_word < 10:
+number_of_characters = len(string)
+if number_of_characters < 10:
     print("String not long enough")
-elif number_of_word > 10:
+elif number_of_characters > 10:
     print("String too long")
 else:
     print("Perfect string")
