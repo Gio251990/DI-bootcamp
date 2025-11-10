@@ -7,7 +7,7 @@ elif number_of_characters > 10:
 else:
     print("Perfect string")
 
-print(string[0:1], string[9:10])
+print(string[0], string[-1])
 
 print(string[:1])
 print(string[:2])
