@@ -10,6 +10,11 @@ print(multiples)
 
 
 
-string = input("Enter a string ")
-s = set(string)
-print(s)
+string = input("Enter a string: ")
+
+new_string = ""
+for i in range(len(string)):
+    if i == 0 or string[i] != string[i - 1]:
+        new_string += string[i]
+
+print(new_string)
