@@ -10,6 +10,24 @@ print(char_dict)
 
 
 
-items_purchase = {"Water": "$1", "Bread": "$3", "TV": "$1,000", "Fertilizer": "$20"}
-wallet = "$300"
+items_purchase = {"Phone": "$999", "Speakers": "$300", "Laptop": "$5,000", "PC": "$1200"}
+wallet = "$1"
+
+basket = []
+
+money = int(wallet.replace("$", "").replace(",", ""))
+
+for item in items_purchase:
+    price = int(items_purchase[item].replace("$", "").replace(",", ""))
+    if price <= money:
+        basket.append(item)
+        money -= price
+
+if len(basket) == 0:
+    print("Nothing")
+else:
+    basket.sort()
+    print(basket)
+
+
 
