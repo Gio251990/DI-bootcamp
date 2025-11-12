@@ -62,7 +62,7 @@ print(student_info["address"])
 # add a new pet to the list
 student_info["pets"].append("Bob")
 print(student_info["pets"])
-# change is parselmouth to flase
+# change is parselmouth to false
 student_info["is_parselmouth"] = False
 print(student_info["is_parselmouth"])
 
