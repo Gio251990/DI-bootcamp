@@ -1,8 +1,6 @@
 # What is a function in Python
 
 # - A sequence of commands that can be reused
-#
-
 
 # Synthax of a function:
 
