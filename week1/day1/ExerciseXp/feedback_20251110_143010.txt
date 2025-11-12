@@ -1,0 +1,11 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day1/ExerciseXp/ExerciseDay1.py
+suggestions for improvement:
+- In Exercise 3, provide your guess as a comment *before* running the code, as the instructions specify.
+- In Exercise 4, the code prompts for input, but the instructions state that the variable should be assigned directly, not via user input.
+- In Exercise 7, the condition `number / 2 != 0` will not correctly identify even numbers. Use the modulo operator (`%`) instead: `number % 2 == 0` for even, and `number % 2 != 0` for odd.
+Brief justification:
+- correctness: The code correctly implements most of the exercises, including print statements, variable assignments, mathematical operations, comparison operators, if statements, and user input. Exercise 4 incorrectly uses input where assignment is expected. Exercise 7's odd/even check is flawed. Exercise 3 does not provide the comments before hand, but the other exercises are properly done based on the task
+- readability: The code is generally readable with clear variable names and straightforward logic. Minor improvements could be made in spacing and comments.
+- performance: The code performs efficiently for the given tasks, with no performance bottlenecks.
+- security: The code uses `input()` which can be a security concern if not handled carefully (e.g., using `eval()`). In Exercise 4, using input makes it insecure
+

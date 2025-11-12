@@ -1,0 +1,7 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day2/DailyChallenge/Challeng.py
+Brief justification:
+- correctness: The code accurately implements both challenges described in the chapter content. Challenge 1 correctly calculates and outputs the multiples of a number based on user input for the number and length. Challenge 2 effectively removes consecutive duplicate letters from a string entered by the user, adhering to all instructions and examples provided in the chapter content.
+- readability: The code is well-structured and easy to understand, using clear variable names and straightforward logic.
+- performance: The code's performance is efficient for the given tasks. The loops used are appropriate and do not introduce unnecessary complexity.
+- security: The code uses `input()` which, while generally safe for this educational context, could be vulnerable in other contexts. However, for the given challenges, the code does not exhibit any specific security vulnerabilities.
+
