@@ -1,0 +1,13 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day5/mini-project.py
+suggestions for improvement:
+- Add input validation to `player_input()` to ensure the row and column are within the valid range (1-3) and the chosen cell is empty.  Currently, an invalid input will cause an error or overwrite existing moves.
+- In `check_win()`, the conditions `board[1][0] == board[1][1] == board[1][2] and board[1][0] == board[1][1] == board[1][2] != "-"` and `board[2][0] == board[2][1] == board[2][2] and board[2][0] == board[2][1] == board[2][2] != "-"` are repeated.  This is likely a copy/paste error and should be corrected to check the appropriate rows/columns.
+- The variable `winner` within `check_win` is not assigned the player who won. The function should return the winning player.
+- The `check_tie` function can be simplified by iterating through the board and returning `False` if any cell is empty. This makes the code more readable and potentially more efficient.
+- Rename player '0' to 'O' to match the instructions.
+Brief justification:
+- correctness: The code implements the core Tic Tac Toe game logic, including board representation, display, player input, win condition checking, tie condition checking, and the main game loop, as described in the instructions. However, it lacks input validation in `player_input`, and has errors in `check_win` where it repeats conditions. The game functions, but has flaws. Therefore, correctness is rated at 80%.
+- readability: The code is reasonably readable, with clear function definitions and straightforward logic. However, the repeated conditions in `check_win` and the lengthy condition in `check_tie` reduce readability. Docstrings would enhance readability.
+- performance: The performance is adequate for a simple Tic Tac Toe game. There are no major performance bottlenecks. The repeated conditions in `check_win()` and inefficient check in `check_tie()` offer minor areas for improvement.
+- security: The code is generally secure for its intended use, but the lack of input validation in `player_input()` could lead to index out-of-bounds errors if the user enters invalid row/column numbers.
+
