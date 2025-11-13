@@ -15,14 +15,6 @@ def show_menu(menu_dict):
     for keys, values in menu.items():
             print(f"{keys} - {values}₪")
 
-def show_options():
-    print("What would you like to do?")
-    print("1. Show menu")
-    print("2. Add item")
-    print("3. Update price")
-    print("4. Delete item")
-    print("5. Exit")
-
 def add_item(menu_dict):
     drink = input("Enter new drink name: ")
     if drink in menu_dict:
