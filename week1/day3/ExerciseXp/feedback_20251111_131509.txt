@@ -1,0 +1,10 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day3/ExerciseXp/Exercise.py
+suggestions for improvement:
+- In the Zara exercise, you can make 'creator_name' a string instead of a list if the problem statement specified it as a single name. If multiple names were required you can keep the list.
+- In the Zara Exercise you can use a dictionary for major color by country instead of a list of dictionaries, this can simplify the call to access the major colors in the US as well.
+Brief justification:
+- correctness: The code accurately implements all the instructions and expected outputs described in the exercises, including dictionary creation, manipulation, looping, conditional statements, and list/dictionary comprehensions. All requirements are met. It converts lists to dictionaries, calculates ticket costs based on age, modifies a Zara brand dictionary, and creates Disney character dictionaries as specified.
+- readability: The code is well-organized and easy to understand, with clear variable names and comments that explain the logic. Some minor improvements could be made in the Zara exercise by switching from a list of dictionaries to a single dictionary for major colors.
+- performance: The code is efficient and avoids unnecessary computations or data structures. The use of enumerate() and zip() is appropriate for the given tasks.
+- security: The code does not involve any user input or external data sources, so there are no obvious security concerns.
+
