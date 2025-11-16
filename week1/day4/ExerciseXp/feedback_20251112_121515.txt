@@ -1,0 +1,11 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day4/ExerciseXp/Exercise.py
+suggestions for improvement:
+- In exercise 4, instead of printing just the computer number when it fails, print: Fail! Your number: 50, Random number: 23
+- In exercise 5, make the 3 calls as requested in the excercise
+- In exercise 6, the show_magician and make_great functions should take in the list of names, not *args.
+Brief justification:
+- correctness: The code addresses the functionalities described in the exercises almost completely. There are some minor issues in excercise 4,5 and 6. However, the core functionality is there. Excercise 7 is done properly.
+- readability: The code is generally well-formatted and easy to understand. Clear variable names and function definitions are used.
+- performance: The code demonstrates good performance for the given tasks. The functions are simple and efficient.
+- security: The code does not involve any external inputs or operations that could pose a security risk.
+
