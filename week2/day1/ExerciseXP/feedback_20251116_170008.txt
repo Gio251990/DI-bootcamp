@@ -1,0 +1,13 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day1/ExerciseXP/Exercise.py
+suggestions for improvement:
+- In the Dog class, the bark method should print 'woof!' instead of 'wolf!'.
+- In the Song class, the sing_me_a_song method should print each lyric on a new line, not concatenated together.
+- In the Zoo class, the sort_animals method should group the animals by the first letter and store them in a dictionary.
+- The get_groups method in the Zoo class is incomplete; it should print the grouped animals as created by sort_animals().
+- The names `dog1` and `dog2` are used instead of `davids_dog` and `sarahs_dog` as mentioned in the instructions.
+Brief justification:
+- correctness: The code correctly implements the core concepts of classes, objects, methods, and attributes as described in the chapter. However, there are minor issues in the Dog and Song classes, and the Zoo class is missing the grouping functionality in `sort_animals` and `get_groups`.  The `Dog` objects are incorrectly named and the `bark` method has a typo.  The `Song` class concatenates the lyrics instead of printing on separate lines. The `sort_animals` and `get_groups` methods are not fully implemented in the `Zoo` class.  Therefore, the correctness score is 85%.
+- readability: The code is generally well-structured and easy to follow, with clear variable names and comments. The formatting is consistent. Therefore, the readability score is 90%.
+- performance: The code has no significant performance issues. The algorithms used are efficient for the given tasks. Therefore, the performance score is 90%.
+- security: The code does not involve any external input or sensitive operations, so security is not a major concern. There are no apparent security vulnerabilities. Therefore, the security score is 90%.
+
