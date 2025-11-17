@@ -82,7 +82,10 @@ class Zoo:
 
 
     def get_animals(self):
-        print(self.animals)
+        if not self.animals:
+            print(f"The {self.zoo_name} has no animals")
+        else:
+            print(", ".join(self.animals))
 
     def sell_animal(self, animal_sold):
         if animal_sold not in self.animals:
@@ -108,3 +111,19 @@ my_zoo.sell_animal("Bear")
 my_zoo.get_animals()
 my_zoo.sort_animals()
 my_zoo.get_groups()
+
+# Exercise review
+
+class Zoo:
+    def __init__(self, zoo_name):
+        self.zoo_name = zoo_name
+        self.animals = []
+
+    def add_animal(self, *new_animal): # usiamo *args per specificare che new_animal puo avere uno o piu animali 
+        if new_animal:
+            for each_animal in new_animal:
+                if each_animal not in self.animals:
+                    self.animals.append(each_animal)
+                else:
+                    print(f"{each_animal} already exist in the zoo")
+    print(", "join(self.animals))
