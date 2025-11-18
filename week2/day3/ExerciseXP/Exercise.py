@@ -5,15 +5,6 @@ class Currency:
 
 
 
-    
-from func import add_number
-
-add_number(5, 10)
-
-
-
-
-
 import string
 import random
 
@@ -30,19 +21,35 @@ print(random_string)
 
 
 
-from datetime import datetime
+import datetime
 
-current_date = datetime.now().date()
-print(current_date)
+def show_date():
+    current_date = datetime.date.today()
+    print(current_date)
 
+show_date()
 
+def remaining_time():
+    now = datetime.datetime.now()
 
+    next_year = datetime.datetime(now.year + 1, 1, 1)
 
-current_date_time = datetime.today()
-next_year = datetime(2026, 1, 1)
-difference_time = next_year - current_date_time
+    difference = next_year - now
+    print(difference)
 
-print(difference_time)
+remaining_time()
+
+def time_lived(birthdate_str):
+
+    birthdate = datetime.datetime.strptime(birthdate_str, "%Y-%m-%d")
+    now = datetime.datetime.now()
+    difference = now - birthdate
+
+    minutes = difference.total_seconds() / 60
+    print(f"You lived for {int(minutes)} minutes")
+
+time_lived("1990-9-25")
+
 
 
 
