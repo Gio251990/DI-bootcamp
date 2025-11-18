@@ -1,0 +1,18 @@
+URL: URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day3/ExerciseXP/Exercise.py
+suggestions for improvement:
+- The Currency class is incomplete and missing the dunder methods requested in Exercise 1.
+- The `func.py` and `exercise_one.py` files for Exercise 2 are missing.
+- The Currency class needs implementation of __str__, __int__, __repr__, __add__, and __iadd__ methods to pass Exercise 1 requirements.
+- The Faker module part is good and addresses the goal of Exercise 7
+Correctness: 60.0%
+-----
+URL: URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day3/ExerciseXP/exercise_one.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day3/ExerciseXP/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
