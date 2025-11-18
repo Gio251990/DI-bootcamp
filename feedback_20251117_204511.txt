@@ -1,0 +1,13 @@
+URL: URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day2/ExerciseXP/Exercise.py
+suggestions for improvement:
+- For Exercise 3, the `PetDog` class and its related instructions are missing. It's important to include the code for `PetDog` to completely address all exercises.
+- In the `Family` class's `check_majority` method, the "Person not found" message should be printed only if the loop completes without finding the person, not inside the loop for every member that doesn't match the name. This is an important logic correction.
+- Consider adding `random` import for the trick, it can be a problem.
+Correctness: 75%
+-----
+URL: URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day2/ExerciseXP/dataexercise.py
+suggestions for improvement:
+- Consider moving the import statement outside of the method to improve performance since it only needs to be imported once.
+- The default value for trained could be more clearly indicated in the docstring.
+Correctness: 100%
+-----
