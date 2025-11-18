@@ -1,0 +1,10 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day3/DailyChallenge/Challenge.py
+suggestions for improvement:
+- Consider adding a function to handle the data cleaning for the prices in the second challenge, to improve code reusability.
+- No major improvements needed, code is well-structured and addresses the challenges effectively.
+Brief justification:
+- correctness: The code correctly implements both challenges. The first challenge accurately creates a dictionary of letter indices. The second challenge correctly determines affordable items based on the given dictionary and wallet, and handles the 'Nothing' case as specified. It sorts the basket in alphabetical order. Aligns perfectly with the instructions and examples provided in the Chapter Content/Questions.
+- readability: The code is well-structured and easy to understand. Variable names are descriptive. Adding a function for data cleaning in the second challenge would further improve readability.
+- performance: The code has good performance. The first challenge iterates through the string once. The second challenge iterates through the dictionary once. The sorting algorithm is efficient for the expected input sizes.
+- security: The code is reasonably secure. Input is taken via `input()` which could be vulnerable to code injection if used maliciously in a different context, but this is not relevant for these challenges. The string manipulation used to clean the wallet and prices does not introduce any apparent vulnerabilities.
+
