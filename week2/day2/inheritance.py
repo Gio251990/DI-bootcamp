@@ -68,7 +68,10 @@ aliendog1 = AlienDog("Chubi", "Mars", "Bob", "Canidae", 6, True, 10)
 print(aliendog1.planet)
 
 
+# built-in polimorphing
 
+print(len("Python")) # str object
+print(len(1, 2, 3, 4))
 
 
     
