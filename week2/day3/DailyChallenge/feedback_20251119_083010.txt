@@ -1,0 +1,14 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day3/DailyChallenge/challenge.py
+suggestions for improvement:
+- The `circle_area` should be a read-only property. You are assigning to `self.circle_area` within the getter, which is not the intended use and can lead to confusion.  It should simply return the calculated area. Consider calculating the area directly within the property getter instead of storing it as an attribute.
+- The `__str__` method should return a string representation of the object, but it's calculating and assigning to `self.circumference`, which is not related to the purpose of `__str__`. Return a string that represents the object's state or useful information.
+- The `__repr__` method should return an unambiguous string representation of the object.  Currently, it just returns the circumference, which is not ideal.  Consider returning a string that allows the object to be recreated, like `Circle(radius=...)`.
+- Ensure consistency in variable naming (e.g., `list` is a poor name as it shadows the built-in function).
+- The prompt specifies that the circle should be definable by radius or diameter. Implement this using a class method or a decorator.
+- When adding circles, return a new `Circle` object, but the output prints the object, instead of the attributes.
+Brief justification:
+- correctness: The code correctly implements several of the dunder methods required: `__add__`, `__gt__`, `__eq__`, and `__lt__`. It also has a basic `__str__` and property. However, the `circle_area` implementation is flawed, and the `__str__` and `__repr__` methods are not ideal. The radius/diameter initialization is missing. Therefore, it partially fulfills the requirements but has significant issues. The bonus part is also not attempted. The radius/diameter initialization using a decorator is missing.
+- readability: The code is generally readable, but the unusual assignment within the `circle_area` property and `__str__` methods reduce readability. The variable name 'list' is also not good practice.
+- performance: The code has no major performance issues for this problem's scale. The area calculation is done only when the property is accessed, which is reasonable.
+- security: There are no apparent security concerns with this code.
+
