@@ -1,0 +1,12 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day1/DailyChallenge/Challenge.py
+suggestions for improvement:
+- The output format doesn't exactly match the example, specifically the indentation of 'E-I-E-I-0!'.
+- The class attribute name should be `animals` instead of `animals_list`
+- In the `get_info` method, add the missing dashes and spaces `E-I-E-I-0!`
+- Add the bonus implementations for the `get_animal_types`, `get_short_info` and `add_animal` with `**kwargs` methods.
+Brief justification:
+- correctness: The code correctly implements the `Farm` class with the `__init__`, `add_animal`, and `get_info` methods as described in the instructions. The dictionary to store animal counts works as expected. The output is mostly correct, but the formatting is slightly different. Missing bonus implementations for `get_animal_types`, `get_short_info` and `add_animal` with `**kwargs` method. step 8 of the instructions was not implemented.
+- readability: The code is well-structured and easy to understand. The variable names are descriptive, and the logic is straightforward.
+- performance: The code has good performance. The dictionary lookups and string formatting are efficient.
+- security: The code doesn't have any apparent security vulnerabilities.
+

@@ -1,0 +1,22 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day2/ExerciseXP/ExerciseDay2.py
+suggestions for improvement:
+- Exercise 1: Use sets instead of lists for my_fav_numbers and friend_fav_numbers. Use the union method for set concatenation.
+- Exercise 1: Remove the last number you added rather than the first number you added.
+- Exercise 2: The question is about the immutability of tuples, but you added new elements, which is not what the question asked. Focus on explaining the immutability.
+- Exercise 4: The list should be generated, not manually created like you did.
+- Exercise 6: The while loop should continue asking for input until a valid name is provided.
+- Exercise 6: The check if the input is correct should be within a while loop to keep asking the user for the correct input
+- Exercise 8: Add an empty list to save the topings the user types.
+- Exercise 8: Make the client type 'quit' so the loop can stop running.
+- Exercise 9: The 'client_age' input is not correct because the loop never stops. If the client wants to quit he needs to type '-1' to finish.
+Brief justification:
+- correctness: The code correctly implements most of the exercises, but there are some errors and improvements to be made:
+- Exercise 1: Does not use sets as required, and does not remove the last number added.
+- Exercise 2: Does not explain the immutability of tuples.
+- Exercise 4: Does not generate the list.
+- Exercise 6: Does not create a while loop for input validation.
+- Exercise 9: Does not correctly end the loop.
+- readability: The code is generally readable, but could benefit from more comments and better variable names.
+- performance: The code is efficient in terms of performance.
+- security: The code is relatively secure, but could benefit from more input validation.
+

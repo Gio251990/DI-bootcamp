@@ -1,0 +1,17 @@
+URL: URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day3/ExerciseXP/Exercise.py
+suggestions for improvement:
+- The provided code addresses only some of the exercises, particularly exercises 2, 3, 4, 5, and 7. Exercise 1 is not addressed at all, and Exercise 6 is missing. Address each exercise individually in a complete and correct manner.
+- For Exercise 1, implement all the required dunder methods in the `Currency` class as described in the instructions.
+- For Exercise 2, ensure that `func.py` is created and contains the function definition. Then, in `exercise_one.py`, call this function as demonstrated.
+- For Exercise 3, verify that the random string generation uses the `string` module as intended.
+- For Exercise 4, correctly use the `datetime` module to display the current date.
+- For Exercise 5, properly calculate and display the time difference until January 1st of the next year.
+- For Exercise 6, create a function to calculate the minutes a user has lived based on their birthdate.
+- For Exercise 7, confirm that the `faker` module generates fake user data and stores it correctly in a list of dictionaries.
+Correctness: 30%
+-----
+URL: URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day3/ExerciseXP/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

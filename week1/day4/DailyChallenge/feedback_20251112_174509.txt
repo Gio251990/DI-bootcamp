@@ -1,0 +1,11 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day4/DailyChallenge/Challenge.py
+suggestions for improvement:
+- Consider adding input validation for the price to ensure it is a non-negative number. This would align with the extra challenge.
+- The `show_options` function is defined twice. Remove the duplicate definition.
+- For better error handling, use `try-except` blocks when converting the price to a float to catch potential `ValueError` if the user enters non-numeric input.
+Brief justification:
+- correctness: The code correctly implements all the required functions: `show_menu`, `add_item`, `update_price`, `delete_item`, `show_options`, and `run_coffee_shop`. The program flow matches the example provided in the instructions. The data structure is also correctly implemented using a dictionary.
+- readability: The code is generally well-readable, but there is one duplicated function and there is room to improve the structure using try-except blocks.
+- performance: The code's performance is efficient for the given task. Dictionary lookups and updates have average time complexity of O(1).
+- security: The code is reasonably secure. There are no immediate security vulnerabilities. However, input validation for the price can be added to avoid unexpected program behavior.
+

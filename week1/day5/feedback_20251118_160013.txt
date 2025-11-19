@@ -1,0 +1,7 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week1/day5/challenge.py
+Brief justification:
+- correctness: The code accurately solves both challenges as described in the problem. The first part sorts comma-separated words alphabetically, and the second part finds the longest word in a sentence. Both challenges follow the instructions and provide the expected output.
+- readability: The code is generally well-readable, with clear variable names and straightforward logic. Minor improvements could be made by adding comments to explain the purpose of each section, but overall it is easy to understand.
+- performance: The performance is efficient for the given tasks. The sorting uses Python's built-in sort function, which is generally fast. The longest word function iterates through the words once, making it reasonably efficient.
+- security: The code does not involve any external input or operations that could pose a security risk.
+
