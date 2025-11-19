@@ -1,0 +1,11 @@
+URL: https://github.com/Gio251990/DI-bootcamp/blob/main/week2/day4/Exercise/exercise.py
+suggestions for improvement:
+- The code could benefit from better error handling in file operations, specifically addressing scenarios where the word list file might not exist. Consider using a try-except block to catch FileNotFoundError.
+- The variable name `get_words_from_file` is used both as a function name and within the function to store the directory path. This can be confusing. Rename the variable inside the function to something more descriptive, like `script_dir`.
+- Consider adding a docstring to each function to explain its purpose, arguments, and return value. This improves code maintainability and readability.
+Brief justification:
+- correctness: The code accurately implements both exercises. It generates random sentences as specified and correctly parses, modifies, and saves the JSON data according to the instructions. All steps are followed correctly, as shown in the breakdown of steps for each exercise. The addition of birth_date follows prompt.
+- readability: The code is generally readable, with clear function definitions and variable names. However, the naming conflict with `get_words_from_file` and lack of docstrings slightly detract from readability.
+- performance: The performance is good for the given tasks. The file reading and random word selection are efficient.  JSON parsing and writing are also standard and performant.
+- security: The code has no immediate security concerns. File paths are constructed using `os.path.dirname` and `os.path.realpath`, which is a reasonable approach. Input validation is present, reducing the risk of injection attacks.
+
