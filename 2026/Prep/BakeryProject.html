@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Project</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .hero {
+            background: url('https://images.pexels.com/photos/1756062/pexels-photo-1756062.jpeg?auto=compress&cs=tinysrgb&w=1600') center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="brown">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo">Bakery</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <div id="home" class="hero">
+        <div>
+            <h2>Fresh & Delicious</h2>
+            <p>Artisan Bakery made with love</p>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div id="about" class="container section">
+        <div class="row">
+            <div class="col s12 m6">
+                <h4>About Us</h4>
+                <p>We create fresh bread and pastries every day using high quality ingredients.</p>
+            </div>
+            <div class="col s12 m6">
+                <img class="responsive-img"
+                    src="https://images.pexels.com/photos/230743/pexels-photo-230743.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div id="products" class="container section">
+        <h4 class="center">Our Products</h4>
+        <div class="row">
+
+            <!-- CARD 1 -->
+            <div class="col s12 m4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img
+                            src="https://images.pexels.com/photos/1775035/pexels-photo-1775035.jpeg?auto=compress&cs=tinysrgb&w=1600">
+                        <span class="card-title">Bread</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Fresh baked bread every morning.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Buy now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col s12 m4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img
+                            src="https://images.pexels.com/photos/1028704/pexels-photo-1028704.jpeg?auto=compress&cs=tinysrgb&w=1600">
+                        <span class="card-title">Croissants</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Buttery and flaky pastries.</p>
+                    </div>
+                    <div class="card-action">
+                        <a class="btn">Order</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col s12 m4">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img
+                            src="https://images.pexels.com/photos/8027652/pexels-photo-8027652.jpeg?auto=compress&cs=tinysrgb&w=1600">
+                        <span class="card-title">Cakes</span>
+                    </div>
+                    <div class="card-content">
+                        <p>Perfect for every celebration.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">Discover</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <div id="contact" class="container section">
+        <h4 class="center">Contact Us</h4>
+        <div class="row">
+            <form class="col s12 m8 offset-m2">
+
+                <div class="input-field">
+                    <input type="text" id="name">
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="input-field">
+                    <input type="email" id="email">
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-field">
+                    <textarea id="message" class="materialize-textarea"></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <button class="btn brown">Send</button>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer brown">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5>Bakery</h5>
+                    <p>Fresh products every day.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2026 Bakery Project
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</body>
+
+</html>
