@@ -137,3 +137,57 @@ age = 65
 print(f"Hello, {name}. You are {age}.")
 print("Hello, {}. You are {}.".format(name, age)) # stessa cosa meno usata
 
+# IF STATEMENT
+
+a = 33
+b = 200
+if a > b:
+    print("a is greater than b")
+elif a == b:
+    print("a is equal to b")
+elif a < b:
+    print("a is lower than b")
+print("Finished")
+
+
+name = input('Please state your name: ')
+
+if name == 'Frank':
+  print('You are Frank Sinatra')
+elif name == 'Miles':
+  print('You are Miles Davis')
+elif name == 'Tony':
+  print('You are Tony Benett')
+else:
+  print('I do not know who you are!')
+
+
+# AND CONDITION tutte e due le condizioni devono essere corrette
+a = 200
+b = 33
+c = 500
+if a > b and c > a:
+  print("Both conditions are True")
+
+# OR CONDITION almeno una delle due condizioni deve essere corretta
+
+a = 200
+b = 33
+c = 500
+if a > b or a > c:
+  print("At least one of the conditions is True")
+
+# IN (NOT e' il suo opposto)
+
+my_hobbies = "sport, code, food, icecreams, netflix"
+if "code" in my_hobbies:
+    print("Hello world")
+
+
+number = int(input("Enter a number between 1 and 100: "))
+if number % 3 == 0 and number % 5 == 0:  # mettendo la condizione come prima si da priorita' visto che if e elif convalidano immediatamente la prima condizione e passano alla successiva solo se falsa
+   print("FizzBuzz")
+elif number % 5 == 0:
+   print("Buzz")
+elif number % 3 == 0:
+   print("Fizz")
