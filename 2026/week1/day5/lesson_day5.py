@@ -134,4 +134,36 @@ for letter in 'Leonardo':
 # PASS salta l'errore
 
 
+my_number = '1234'
+my_list = []
 
+for num in my_number:
+    my_list.append(num)
+print(my_list)
+
+my_number = '1234'
+my_list = []
+
+my_list = [num for num in my_number]
+print(my_list)
+
+
+
+my_list = [x for x in range(0,6)]
+print(my_list)
+
+
+my_list = [x**2 for x in range(0,6)] # square
+print(my_list)
+
+my_list = [x for x in range(0,11) if x%2 == 0] # only even
+print(my_list)
+
+
+for i in [2, 3, 4]:
+    for j in [100, 200, 300]:
+        my_list.append(i*j)
+
+my_list = []
+my_list = [(i*j) for i in [2, 3, 4] for j in [100, 200, 300]]
+print(my_list)
