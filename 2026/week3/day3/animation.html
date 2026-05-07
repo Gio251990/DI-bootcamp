@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Exercise 1 Timer</title>
+
+    <style>
+        p {
+            background: yellow;
+            color: red;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="container"></div>
+
+    <button id="clear">
+        Clear Interval
+    </button>
+
+    <script>
+
+        // PART I
+
+        setTimeout(function () {
+
+            alert("Hello World");
+
+        }, 2000);
+
+
+        // PART II
+
+        setTimeout(function () {
+
+            const p = document.createElement("p");
+
+            p.textContent = "Hello World";
+
+            document.getElementById("container").appendChild(p);
+
+        }, 2000);
+
+
+        // PART III
+
+        const interval = setInterval(function () {
+
+            const p = document.createElement("p");
+
+            p.textContent = "Hello World";
+
+            document.getElementById("container").appendChild(p);
+
+            const paragraphs = document.querySelectorAll("#container p");
+
+            if (paragraphs.length >= 5) {
+
+                clearInterval(interval);
+
+            }
+
+        }, 2000);
+
+
+        // bottone clear
+
+        document.getElementById("clear").addEventListener("click", function () {
+
+            clearInterval(interval);
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Move The Box</title>
+
+    <style>
+        #container {
+            width: 400px;
+            height: 400px;
+            position: relative;
+            background: yellow;
+        }
+
+        #animate {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background: red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p>
+
+        <button onclick="myMove()">
+            Click Me
+        </button>
+
+    </p>
+
+    <div id="container">
+
+        <div id="animate"></div>
+
+    </div>
+
+    <script>
+
+        function myMove() {
+
+            const box = document.getElementById("animate");
+
+            let position = 0;
+
+            const interval = setInterval(frame, 1);
+
+            function frame() {
+
+                if (position >= 350) {
+
+                    clearInterval(interval);
+
+                }
+                else {
+
+                    position++;
+
+                    box.style.left = position + "px";
+
+                }
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
